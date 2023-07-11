@@ -1,14 +1,16 @@
 # Interactive Excel Dashboard on Performance Analysis of Students
 
 <br>
-<p align="center"><img src="https://user-images.githubusercontent.com/106439762/181936448-9314e858-4251-46d6-b4d1-35a4c29e9c19.svg"><img src="https://forthebadge.com/images/badges/made-with-python.svg"></a></p>
+<p align="center"><img src="Media Files/analysis.png" width="600" height="400">
+
+</p>
 
 ## 📝 Description
  </h2>
 <p>
 <animated-image data-catalyst="" style="float: right; width: 400px;">
 <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/190338430fb2eca4d172a1987205c5e073b2de72db46cb4ed12cf1c2fa32041a/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f645765734263544c61766b5a754733354d492f67697068792e676966" data-target="animated-image.originalLink">
-<img align="right" alt="Coding" height="225" width = "360" src="Media Files/jobs.jpg" data-canonical-src="Media Files/jobs.jpg" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+<img align="right" alt="Coding" height="185" width = "295" src="Media Files/assessment-analysis.png" data-canonical-src="Media Files/assessment-analysis.png" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 </a>
         <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play Coding"></button>
         <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls">
@@ -29,57 +31,20 @@
         </span>
       </span></animated-image></p>
       
- - This repository represents **"An in-depth analysis of current job opportunities in the corporate sector in India"**  
- - Lead by me, it was completed by a team of 04 members, over a span of 5 days.
- - The analysis has been done through aggregations on MySQL and Visualisation on PowerBI
- - With the help of this project we can get useful incites on the companies and industries hiring most aggressively, the best locations, and the skills most sought after by recruiters.
+ - This repository represents **"An in-depth analysis of the performance of students of my school (JNV Baghpat) in secondary school examination through pivot tables and Interactive Excel Dashboard"**  
+ - It also helps analyze the status of admission of these students to Senior Secondary
+ - With the help of this project we can get useful insights into the performance of students which can eventually help the school taking important decisions for the ultimate good of students
 
-## ⏳ Dataset 
-* Data of over 500 job openings was extracted from instahyre.com
-* After performing data cleaning and modification on the raw data we were able to create 4 separate datasets namely jobs, companies, locations, and skills
-* Download the datasets:
-  https://github.com/dipeshbhatt1/Analysis-of-Corporate-Job-opportunities-in-India/tree/main/Datasets
+## ⏳ Dataset
+* Data of 83 students of my school has been used
+* Result Analysis data prepared in Excel using functions and formulae
+* Final sheet was prepared in same workbook using cell referencing, VLOOKUP and INDEX-MATCH functions
+* Download the excel file: https://github.com/dipeshbhatt1/Excel-Project/blob/main/Dataset%20%26%20Dashboard/cbse-result-analysis.xlsx
 
-## 🏽‍ Download Dashboard file:
-- Download the PowerBI dashboard file: https://github.com/dipeshbhatt1/Price-Prediction-of-Pre-Owned-Cars/blob/main/Python%20Codes%20(in%20ipynb)/C-analysis-and-model.ipynb
-- Download SQL query: https://github.com/dipeshbhatt1/Analysis-of-Corporate-Job-opportunities-in-India/blob/main/SQL%20queries/key-insights-through-aggregations-in-mysql.sql
+## 🏽‍ Download the Dashboard:
+- Download the Dynamic Excel Dashboard file: https://github.com/dipeshbhatt1/Excel-Project/blob/main/Dataset%20%26%20Dashboard/cbse-result-analysis.xlsx
 
-## :desktop_computer:	Installation
-
-### :hammer_and_wrench: Requirements
-```bash
-  * Python 3.7+
-  * IDE (Jupyter Notebook, VS Code, Spyder, etc)
-  * selenium and other python libraries like numpy and pandas
-  * Web Driver (Chrome, Firefox, Edge, Safari, etc)
-  * MySQL Workbench
-  * Microsoft PowerBI Desktop
-```
-    
-## :gear: Setup
-1. Install the latest version of Python:
-    https://www.python.org/downloads/
-2. If pip is not installed, you can follow the instructions:
-    https://pip.pypa.io/en/stable/installing/
-3. Install Jupyter using command prompt:
-```bash
-    pip install jupyter
-```
-4. Install Python libraries viz. pandas, seaborn, selenium, time, one by one using the command prompt, for instance:
-```bash
-    pip install pandas
-```
-5. Once you have these all, launch the Jupyter Notebook using the command prompt:
-```bash
-    jupyter notebook
-```
-6. Install MySQL Workbench:
-   https://dev.mysql.com/downloads/workbench/
-7. Install Microsoft PowerBI Desktop:
-   https://powerbi.microsoft.com/en-us/desktop/ or through Microsoft Store
-9. Now you can start working on the project using the given Python codes and datasets
-
-## <img src="Media Files/steps3.png" width="45" height="40"> Steps Involved
+## <img src="Media Files/steps.png" width="45" height="40"> Steps Involved
 
 1. **Objective:** To perform an in-depth analysis on the current job opportunities in the corporate sector in India for the purpose of providing smart solutions to job seekers as well as consultancies
 2. **Data Collection:** Data of 500 job-openings was scrapped through instahyre.com using selenium
@@ -98,12 +63,8 @@
 4. **Data Analysis and Visualisation:** All four datasets were imported on MySQL Workbench, created relations using primary key-foreign key combinations, and some inciteful aggregations were performed. Then the same datasets were also imported on PowerBI Desktop, relationships were created among each other, and then 3 different dashboards were created (refer to screenshots)
 5. **Key Incites and Conclusions:** All the key incites and conclusions drawn are mentioned after the screenshots hereunder.
 
- ## Screenshots
-<img src="Media Files/SQL query - top 5 companies with best overall rating in each company size.png" width="800" height="495">
-<img src="Media Files/SQL query - best industries across locations.png" width="800" height="650">
-<img src="Media Files/job-analysis.jpg" width="800" height="450">
-<img src="Media Files/location-analysis.jpg" width="800" height="450">
-<img src="Media Files/companies-analysis.jpg" width="800" height="450">
+ ## Dashboard
+<p align="center"><img src="Media Files/cbse-result-analysis.jpg" width="800" height="375">
 
 ## <img src="https://user-images.githubusercontent.com/108053296/185756908-fbb62168-d923-48f2-992f-b8e2fde848fe.gif" width="48" height="48" > Conclusion and Key-Insights
    
@@ -117,10 +78,5 @@
    8. Employees have marked better overall experience for companies with sizes 10-50 and 50-200 than all other categories which indicates that companies within these 2 categories may be better for candidates to look for.
    9. In the non-tech field - The sales and Business industry is recruiting the most
 
-## Contributors <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width=35 height=25> 
-- Sidhartha Agasti
-- Ranjit Shah
-- Sachin Kumar
-
-## Further Contributing
-Contributions are always welcome! Especially if you can help me make this project dynamic which can be easily refreshed with fresh data whenever required by someone, so as to make it useful for the masses.
+## Contributing
+Contributions are always welcome!
