@@ -1,5 +1,4 @@
-# Excel-Project
-Performance Analysis of Students of my own School in Secondary School Examination 2023
+# Interactive Excel Dashboard on Performance Analysis of Students
 
 <br>
 <p align="center"><img src="https://user-images.githubusercontent.com/106439762/181936448-9314e858-4251-46d6-b4d1-35a4c29e9c19.svg"><img src="https://forthebadge.com/images/badges/made-with-python.svg"></a></p>
