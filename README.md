@@ -63,7 +63,7 @@
 5. **Key Incites and Conclusions:** All the key incites and conclusions drawn are mentioned below the dashboard hereunder.
 
  ## Dashboard
-<p align="center"><img src="Media Files/cbse-result-analysis.jpg" width="800" height="375">
+<p align="center"><img src="Media Files/student-performance-analysis.jpg" width="800" height="600">
 
 ## <img src="https://user-images.githubusercontent.com/108053296/185756908-fbb62168-d923-48f2-992f-b8e2fde848fe.gif" width="48" height="48" > Findings and Conclusion
    
