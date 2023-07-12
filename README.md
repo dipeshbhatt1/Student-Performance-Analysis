@@ -10,7 +10,7 @@
 <p>
 <animated-image data-catalyst="" style="float: right; width: 400px;">
 <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/190338430fb2eca4d172a1987205c5e073b2de72db46cb4ed12cf1c2fa32041a/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f645765734263544c61766b5a754733354d492f67697068792e676966" data-target="animated-image.originalLink">
-<img align="right" alt="Coding" height="200" width = "310" src="Media Files/analysis.png" data-canonical-src="Media Files/analysis.png" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+<img align="right" alt="Coding" height="210" width = "350" src="Media Files/analysis.png" data-canonical-src="Media Files/analysis.png" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 </a>
         <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play Coding"></button>
         <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls">
@@ -31,14 +31,14 @@
         </span>
       </span></animated-image></p>
       
- - This repository represents **"An in-depth analysis of the performance of students of my school (JNV Baghpat) in secondary school examination through pivot tables and Interactive Excel Dashboard"**
- - This analysis has helped the school administrators identify areas of improvement, personalize learning experiences, and provide targeted support to struggling students.
- - Furthermore, this student performance analysis is helping school administrators and policymakers in decision-making processes and helped them allocate resources more effectively.
+ - This repository represents **An in-depth analysis of the performance of students in Secondary School Examination**.
+ - This analysis helps educators identify areas of improvement, personalize learning experiences, and provide targeted support to struggling students.
+ - Furthermore, student performance analysis and prediction can also aid in decision-making processes for school administrators and policymakers, helping them allocate resources more effectively.
 
 ## ⏳ Dataset
-* Data of 83 students of my school has been used
-* Result Analysis data prepared in Excel using functions and formulae
-* Final sheet was prepared in same workbook using cell referencing, VLOOKUP and INDEX-MATCH functions
+* Data of 83 students who studied in my school in Class X during 2022-23
+* Result Analysis sheet prepared in Excel using various formulae and functions such as SUM, AVERAGE, RANK, COUNTIF, etc
+* Final sheet prepared in same workbook using cell referencing and advanced excel functions like VLOOKUP, INDEX-MATCH, etc
 * Download the excel file: https://github.com/dipeshbhatt1/Excel-Project/blob/main/Dataset%20%26%20Dashboard/cbse-result-analysis.xlsx
 
 ## 🏽‍ Download the Dashboard:
