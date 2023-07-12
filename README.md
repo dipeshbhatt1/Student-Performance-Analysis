@@ -1,4 +1,4 @@
-# Interactive Excel Dashboard on Performance Analysis of Students
+# Performance Analysis of Students in Secondary School Examination
 
 <br>
 <p align="center"><img src="Media Files/assessment-analysis.png" width="600" height="400">
@@ -39,10 +39,10 @@
 * Data of 83 students who studied in my school in Class X during 2022-23
 * Result Analysis sheet prepared in Excel using various formulae and functions such as SUM, AVERAGE, RANK, COUNTIF, etc
 * Final sheet prepared in same workbook using cell referencing and advanced excel functions like VLOOKUP, INDEX-MATCH, etc
-* Download the excel file: https://github.com/dipeshbhatt1/Excel-Project/blob/main/Dataset%20%26%20Dashboard/cbse-result-analysis.xlsx
-
+* Download the excel file: https://github.com/dipeshbhatt1/Excel-Project/blob/main/Dataset%20%26%20Dashboard/student-performance-analysis.xlsx
+  
 ## 🏽‍ Download the Dashboard:
-- Download the Excel Dashboard file: https://github.com/dipeshbhatt1/Excel-Project/blob/main/Dataset%20%26%20Dashboard/cbse-result-analysis.xlsx
+- Download the Excel Dashboard file: https://github.com/dipeshbhatt1/Excel-Project/tree/main/Dataset%20%26%20Dashboard
 
 ## <img src="Media Files/steps.png" width="45" height="40"> Steps Involved
 
