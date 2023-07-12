@@ -46,8 +46,8 @@
 
 ## <img src="Media Files/steps.png" width="45" height="40"> Steps Involved
 
-1. **Objective:** To perform an in-depth analysis on the current job opportunities in the corporate sector in India for the purpose of providing smart solutions to job seekers as well as consultancies
-2. **Data Collection:** Data of 500 job-openings was scrapped through instahyre.com using selenium
+1. **Objective:** To perform an in-depth analysis of the CBSE Board result of students of my school to draw insights to make Annual Plan for the ongoing academic year accordingly
+2. **Data Collection:** Data of 83 students was taken into account along with CBSE result data for Class X 2023 i.r.o. of my school
 3. **Data Modification and Organisation:** Initially the raw data had multiple locations in just one column, a similar situation was with skills too. This was because for a particular job opening the employer may provide more than one location option to candidates, and these days a single skill is not enough to enter a job in the corporate sector. So, two separate datasets for location and skills were created using the explode() function in pandas. After applying techniques like Data Cleaning (imputation, and removing duplicate records), EDA, and Feature Generation, a total of 4 datasets were generated, which were used to perform aggregations on MySQL and visualization was done on PowerBI by creating attractive dashboards. In the whole analysis the main features or details involves are mentioned below:
 ```bash
     designation
