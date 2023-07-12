@@ -33,7 +33,7 @@
       
  - This repository represents **An in-depth analysis of the performance of students in Secondary School Examination**.
  - This analysis helps educators identify areas of improvement, personalize learning experiences, and provide targeted support to struggling students.
- - Furthermore, student performance analysis and prediction can also aid in decision-making processes for school administrators and policymakers, helping them allocate resources more effectively.
+ - Furthermore, student performance analysis can also aid in decision-making processes for school administrators and policymakers, helping them allocate resources more effectively.
 
 ## ⏳ Dataset
 * Data of 83 students who studied in my school in Class X during 2022-23
@@ -73,7 +73,7 @@
    5. **The Staff Wards (students who are children of school staff) have performed very poor** as compared to students coming from rural and urban backgrounds. At first, this sounds the alarm bell for the concerned staff members (who are parents of these students) as well as for other staff members whose kids are studying in this school too. The staff wards stay with their parents in staff quarters, and unlike other students they are not allowed to stay in hostels, so they also don't have privilege of night study hours which are oftern under supervision of teachers inside hostels, so due to these reasons the staff wards might feel alienated, or the concerned staff members might not be able to pay much attention towards the study of their wards while at home, perhaps due to excessive work load. So, there's a need to investigate the possible reasons behind such performance of staff-wards.
    6. On doing subject-wise score comparision between girls and boys, it is found that girls have outperformed boys when it comes to language subjects namely English and Hindi, but have underperformed in technical subjects like Mathematics, Science and IT. It indicates that we have to look for ways to effectively bridge the learning gap faced by girls in the technical subjects.
    7. The **progression rate of the class is very good**, wherein 82 out of 83 students have passed the examination.
-   8. Consequent upon taking into account the streams requested by the promoted students for studying in class XI, which was subject to fulfilment of Stream-Allocation criteria of NVS, it is observed that highest no. of students i.e. 33% have opted and are elible for **Science Stream (PMC) with Computer Science**, which clearly shows the **impact of growing popularity of career opportunities in IT sector**.
+   8. Consequent upon taking into account the streams requested by the promoted students for studying in class XI, which was subject to fulfilment of Stream-Allocation criteria of NVS, it is observed that highest no. of students i.e. 33% have opted and are elible for **Science Stream (PCM) with Computer Science**, which clearly shows the **impact of growing popularity of career opportunities in IT sector**.
    9. Unfortunately, a large no. of students i.e. 14% had to drop out of the school as their scores could not qualify for admission to the available streams (i.e. Science and Commerce), or they could not get the stream of their choice. This calls for **early implementation of National Education Policy 2020** which will not only help the students enjoy the diverse options of subject choice for Higher Secondary, but also curtail the no. of drop outs significantly.
 
 ## Contributing
