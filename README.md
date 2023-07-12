@@ -31,9 +31,9 @@
         </span>
       </span></animated-image></p>
       
- - This repository represents **"An in-depth analysis of the performance of students of my school (JNV Baghpat) in secondary school examination through pivot tables and Interactive Excel Dashboard"**  
- - It also helps analyze the status of admission of these students to Senior Secondary
- - With the help of this project we can get useful insights into the performance of students which can eventually help the school taking important decisions for the ultimate good of students
+ - This repository represents **"An in-depth analysis of the performance of students of my school (JNV Baghpat) in secondary school examination through pivot tables and Interactive Excel Dashboard"**
+ - This analysis has helped the school administrators identify areas of improvement, personalize learning experiences, and provide targeted support to struggling students.
+ - Furthermore, this student performance analysis is helping school administrators and policymakers in decision-making processes and helped them allocate resources more effectively.
 
 ## ⏳ Dataset
 * Data of 83 students of my school has been used
@@ -42,41 +42,39 @@
 * Download the excel file: https://github.com/dipeshbhatt1/Excel-Project/blob/main/Dataset%20%26%20Dashboard/cbse-result-analysis.xlsx
 
 ## 🏽‍ Download the Dashboard:
-- Download the Dynamic Excel Dashboard file: https://github.com/dipeshbhatt1/Excel-Project/blob/main/Dataset%20%26%20Dashboard/cbse-result-analysis.xlsx
+- Download the Excel Dashboard file: https://github.com/dipeshbhatt1/Excel-Project/blob/main/Dataset%20%26%20Dashboard/cbse-result-analysis.xlsx
 
 ## <img src="Media Files/steps.png" width="45" height="40"> Steps Involved
 
-1. **Objective:** To perform an in-depth analysis of the CBSE Board result of students of my school to draw insights to make Annual Plan for the ongoing academic year accordingly
-2. **Data Collection:** Data of 83 students was taken into account along with CBSE result data for Class X 2023 i.r.o. of my school
-3. **Data Modification and Organisation:** Initially the raw data had multiple locations in just one column, a similar situation was with skills too. This was because for a particular job opening the employer may provide more than one location option to candidates, and these days a single skill is not enough to enter a job in the corporate sector. So, two separate datasets for location and skills were created using the explode() function in pandas. After applying techniques like Data Cleaning (imputation, and removing duplicate records), EDA, and Feature Generation, a total of 4 datasets were generated, which were used to perform aggregations on MySQL and visualization was done on PowerBI by creating attractive dashboards. In the whole analysis the main features or details involves are mentioned below:
+1. **Objective:** To perform an in-depth analysis of performance of students of my school in board examination 2023 to draw insights to enhance experience of students and make important policy decisions by framing Annual Plan for the ongoing academic year accordingly.
+2. **Data Collection:** Data of 83 students was taken into account along with CBSE result data for Class X 2023 in respect of my school.
+3. **Data Organisation:** The raw data was referred to prepare the final data using advance excel functions like VLOOKUP, INDEX-MATCH, etc. In the whole analysis the main features or details involved are mentioned below:
 ```bash
-    designation
-    job location
-    industry hiring for
-    desired skills
-    desired experience
-    name of the company (employer)
-    establishment year of the company
-    company size
-    ratings for the company by employees on various factors
+    personal details of students
+    gender
+    social category
+    area from where they belong (rural/urban)
+    data of admission in school
+    subject-wise score in Board exam
+    final result (progression)
+    status of their admission in higher secondary (stream opted/dropped out)
 ```
-4. **Data Analysis and Visualisation:** All four datasets were imported on MySQL Workbench, created relations using primary key-foreign key combinations, and some inciteful aggregations were performed. Then the same datasets were also imported on PowerBI Desktop, relationships were created among each other, and then 3 different dashboards were created (refer to screenshots)
-5. **Key Incites and Conclusions:** All the key incites and conclusions drawn are mentioned after the screenshots hereunder.
+4. **Data Analysis and Visualisation:** This final dataset was used to form pivot tables with specific features to visualise for pattern/trend. Indiviaual pivot charts were used to create a single Dashboard along with useful slicers/filters (refer to screenshots)
+5. **Key Incites and Conclusions:** All the key incites and conclusions drawn are mentioned below the dashboard hereunder.
 
  ## Dashboard
 <p align="center"><img src="Media Files/cbse-result-analysis.jpg" width="800" height="375">
 
-## <img src="https://user-images.githubusercontent.com/108053296/185756908-fbb62168-d923-48f2-992f-b8e2fde848fe.gif" width="48" height="48" > Conclusion and Key-Insights
+## <img src="https://user-images.githubusercontent.com/108053296/185756908-fbb62168-d923-48f2-992f-b8e2fde848fe.gif" width="48" height="48" > Findings and Conclusion
    
-   1. Corporations or companies established more than 10 years ago are hiring more aggressively than startups
-   2. Python and SQL still remain the most in-demand skills for Data Science and Analysis, followed by Machine Learning. Gone are those days when just having good knowledge of Excel was enough to aspire for the said field.
-   3. Also, Python and Java are topping the list of most in-demand skills by recruiters in India
-   4. Employees working with Startups have better overall experience than those working in Corporations
-   5. We can see that some of the well-known companies, such as Delta, Uber, PhonePe, Jungless Games, Mahindra Insurance, etc, belonging to different company-size categories, are topping the list of overall ratings by their employees
-   6. Bangalore is the topping the list, having the most number of job opportunities i.e. alomost 50%.
-   7. Software Engineering is the highest recruiting industry, almost across all locations. Also, about 50% work from home job offers are given by the Software Engineering industry itself.
-   8. Employees have marked better overall experience for companies with sizes 10-50 and 50-200 than all other categories which indicates that companies within these 2 categories may be better for candidates to look for.
-   9. In the non-tech field - The sales and Business industry is recruiting the most
+   1. The students belonging to unreserved category have performed the best followed by those from reserved classes. This indicates that there's a **scope for improvement in teaching-learning process with regards to students belonging to under-privileged classes**. As there is a very high population of Jaat caste people in Baghpat, hence the no. of students from OBC category are more.
+   3. Boys, who are almost double the no. of girls in the class have performed slightly better than girls. But the data looks far better than the times when the literacy rate of Females in the district was just 59.95% as compared to that of males which was 82.45% (according to census 2011).
+   4. The **students who come from rural areas of district Baghpat are highest in number (almost 80%) and have also performed the best**. These students come from a very humble background and it seams that, with the availability of excellent facilities they have made great efforts for effective learning during the session.
+   5. **The Staff Wards (students who are children of school staff) have performed very poor** as compared to students coming from rural and urban backgrounds. At first, this sounds the alarm bell for the concerned staff members (who are parents of these students) as well as for other staff members whose kids are studying in this school too. The staff wards stay with their parents in staff quarters, and unlike other students they are not allowed to stay in hostels, so they also don't have privilege of night study hours which are oftern under supervision of teachers inside hostels, so due to these reasons the staff wards might feel alienated, or the concerned staff members might not be able to pay much attention towards the study of their wards while at home, perhaps due to excessive work load. So, there's a need to investigate the possible reasons behind such performance of staff-wards.
+   6. On doing subject-wise score comparision between girls and boys, it is found that girls have outperformed boys when it comes to language subjects namely English and Hindi, but have underperformed in technical subjects like Mathematics, Science and IT. It indicates that we have to look for ways to effectively bridge the learning gap faced by girls in the technical subjects.
+   7. The **progression rate of the class is very good**, wherein 82 out of 83 students have passed the examination.
+   8. Consequent upon taking into account the streams requested by the promoted students for studying in class XI, which was subject to fulfilment of Stream-Allocation criteria of NVS, it is observed that highest no. of students i.e. 33% have opted and are elible for **Science Stream (PMC) with Computer Science**, which clearly shows the **impact of growing popularity of career opportunities in IT sector**.
+   9. Unfortunately, a large no. of students i.e. 14% had to drop out of the school as their scores could not qualify for admission to the available streams (i.e. Science and Commerce), or they could not get the stream of their choice. This calls for **early implementation of National Education Policy 2020** which will not only help the students enjoy the diverse options of subject choice for Higher Secondary, but also curtail the no. of drop outs significantly.
 
 ## Contributing
 Contributions are always welcome!
