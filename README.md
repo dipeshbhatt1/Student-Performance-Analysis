@@ -66,7 +66,6 @@
 <p align="center"><img src="Media Files/student-performance-analysis.jpg" width="800" height="625">
 
 ## <img src="https://user-images.githubusercontent.com/108053296/185756908-fbb62168-d923-48f2-992f-b8e2fde848fe.gif" width="48" height="48" > Findings and Conclusion
-   
    1. The students belonging to unreserved category have performed the best followed by those from reserved classes. This indicates that there's a **scope for improvement in teaching-learning process with regards to students belonging to under-privileged classes**. As there is a very high population of Jaat caste people in Baghpat, hence the no. of students from OBC category are more.
    2. Boys, who are almost double the no. of girls in the class have performed slightly better than girls. But the data looks far better than the times when the literacy rate of Females in the district was just 59.95% as compared to that of males which was 82.45% (according to census 2011).
    3. The **students who come from rural areas of district Baghpat are highest in number (almost 80%) and have also performed the best**. These students come from a very humble background and it seams that, with the availability of excellent facilities they have made great efforts for effective learning during the session.
